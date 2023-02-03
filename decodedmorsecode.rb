@@ -37,7 +37,7 @@ def decode_char(character)
     '---..' => '8',
     '----.' => '9',
     ' ' => ' '
-  }
+  }.freeze
 
   morse[character]
 end
